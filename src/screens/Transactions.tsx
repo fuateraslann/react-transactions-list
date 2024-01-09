@@ -1,8 +1,8 @@
-import { useGetTransactions } from 'hooks/endpoints/useGetTransactions'
+import { useGetTransactions } from 'hooks'
 import { isEmpty } from 'lodash'
 import { Card, Result, Table } from 'antd'
 import { columns } from 'commons/TransactionTableColumns'
-import TransactionGraph from 'components/TransactionGraph'
+import { TransactionGraph } from 'components'
 import { TTransaction } from 'types'
 
 const Transactions = () => {

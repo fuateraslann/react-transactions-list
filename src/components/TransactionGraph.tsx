@@ -6,7 +6,7 @@ import { graphColors } from 'constants/colors'
 const pieChartOptions = {
   responsive: true,
 }
-const TransactionGraph = ({ transactions }: { transactions: TTransaction[] }) => {
+export const TransactionGraph = ({ transactions }: { transactions: TTransaction[] }) => {
   const initialMonthlyValues = {
     January: 0,
     February: 0,
@@ -46,5 +46,3 @@ const TransactionGraph = ({ transactions }: { transactions: TTransaction[] }) =>
     </div>
   )
 }
-
-export default TransactionGraph

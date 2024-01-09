@@ -29,7 +29,6 @@ const InfoSection = ({ text, title, extra }: { text: string | number; title: str
 
 const TransactionDetail = () => {
   const { transactionId } = useParams()
-  console.log(transactionId)
   const {
     data: transactionDetail,
     isError,

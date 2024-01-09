@@ -17,7 +17,7 @@ export const columns: ColumnsType<TTransaction> = [
     dataIndex: 'merchantName',
     key: 'merchantName',
     render: (_, record) => {
-      return <Link to={'transactions/' + record.id}>{record.merchantName}</Link>
+      return <Link to={record.id}>{record.merchantName}</Link>
     },
   },
   {
