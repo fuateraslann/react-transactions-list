@@ -7,6 +7,10 @@
 - Dummy api token istemediği için interceptor'a tokenı eklemedim .
 - TransactionDetail sayfasında kod tekrarına gitmemek için contional rendering kullandım. Daha da geliştirilebilirdi.
 
+## Online demo
+
+https://react-transactions-list.netlify.app
+
 ## Available Scripts
 
 In the project directory, you can run:
