@@ -3,9 +3,6 @@
 ## Notes
 
 - 'username' : kminchelle 'password' : 0lelplR ile giriş yapabilirsiniz.
-- 2 numaralı apideki data karmaşık yıllarda geldiği için sadece verideki ayları baz alarak bir grafik oluşturdum .Örneğin ocak 2024 ve ocak 2050 datalarını toplayıp ocak ayında gösterdim.
-- Dummy api token istemediği için interceptor'a tokenı eklemedim .
-- TransactionDetail sayfasında kod tekrarına gitmemek için contional rendering kullandım. Daha da geliştirilebilirdi.
 
 ## Online demo
 
